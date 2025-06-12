@@ -41,7 +41,7 @@
             tap-ms = <20>;
         };
 
-         tog_on: toggle_layer_on_only {
+        tog_on: toggle_layer_on_only {
             compatible = "zmk,behavior-toggle-layer";
             #binding-cells = <1>;
             display-name = "Toggle Layer On";
@@ -64,7 +64,7 @@
 &kp Q             &kp W         &kp E         &kp R             &kp T                                             &kp Y        &kp U  &lt 6 I    &kp O    &kp P
 &kp A             &kp S         &kp D         &kp F             &kp G        &trans                &kp MINUS      &kp H        &kp J  &kp K      &kp L    &kp SQT
 &mt LEFT_SHIFT Z  &kp X         &kp C         &kp V             &kp B        &lt 5 COLON           &kp SEMICOLON  &kp N        &kp M  &kp COMMA  &kp DOT  &mt LEFT_SHIFT SLASH
-&kp LCTRL         &kp LEFT_ALT  &kp LEFT_WIN  &lt 2 INT_HENKAN  &lt 3 SPACE  &lt 4 INT_MUHENKAN    &kp BACKSPACE  &lt 2 ENTER                             &kp DEL
+&kp LCTRL         &kp LEFT_ALT  &kp LEFT_WIN  &lt 2 INT_HENKAN  &lt 3 SPACE  &lt 4 INT_MUHENKAN    &kp BACKSPACE  &lt 2 ENTER                             &kp SPACE
             >;
 
             sensor-bindings =
